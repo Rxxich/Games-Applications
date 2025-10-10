@@ -18,6 +18,9 @@ payload:
   - PROCESS-NAME,Agent.exe
   - PROCESS-NAME,Battle.net.exe
   - PROCESS-NAME,Wow.exe
+  
+  # Steam
+  - PROCESS-NAME-REGEX,(?i).*steam.*
 
   # Content Warning
   - PROCESS-NAME,Content Warning.exe # Content Warning
@@ -105,4 +108,5 @@ payload:
   - PROCESS-NAME,start_protected_game.exe # The FINALS anticheat start exe
   - PROCESS-NAME,EscapeFromTarkovArena_BE.exe # Escape From Tarkov - Arena Battle Eye Anticheat
   - PROCESS-NAME,EscapeFromTarkov_BE.exe # Escape From Tarkov Battle Eye Anticheat
+
 
