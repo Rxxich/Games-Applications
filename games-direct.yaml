@@ -29,10 +29,6 @@ payload:
   # Counter-Strike 2
   - PROCESS-NAME,cs2.exe
 
-  # Euro Truck Simulator 2 / American Trucks Simulator
-  - PROCESS-NAME,eurotrucks2.exe
-  - PROCESS-NAME,amtrucks.exe
-
   # Party Animals
   - PROCESS-NAME,PartyAnimals.exe
 
@@ -152,3 +148,4 @@ payload:
   - PROCESS-NAME,vgc.exe
   - PROCESS-NAME,vgm.exe
   - PROCESS-NAME-REGEX,(?i).*vanguard.*
+
