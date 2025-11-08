@@ -2,6 +2,8 @@ payload:
   # Battle.net and Blizzard
   - PROCESS-NAME,Agent.exe
   - PROCESS-NAME,Battle.net.exe
+  - PROCESS-NAME,BlizzardBrowser.exe
+  - PROCESS-NAME,Overwatch.exe
   
   # OBS
   - PROCESS-NAME,obs64.exe
@@ -107,11 +109,6 @@ payload:
   - PROCESS-NAME,MarvelRivals_Launcher.exe
   - PROCESS-NAME,Marvel-Win64-Shipping.exe
 
-  # Overwatch 2
-  - PROCESS-NAME,Overwatch.exe
-  - PROCESS-NAME,Battle.net.exe
-  - PROCESS-NAME,BlizzardBrowser.exe
-
   # Phasmophobia
   - PROCESS-NAME,Phasmophobia.exe
 
@@ -148,4 +145,7 @@ payload:
   - PROCESS-NAME,vgm.exe
   - PROCESS-NAME-REGEX,(?i).*vanguard.*
 
+  # FaceIT AC
+  - PROCESS-NAME,faceitservice.exe
+  - PROCESS-NAME,faceitclient.exe  
 
