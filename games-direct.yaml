@@ -2,7 +2,6 @@ payload:
   # Battle.net and Blizzard
   - PROCESS-NAME,Agent.exe
   - PROCESS-NAME,Battle.net.exe
-  - PROCESS-NAME,Wow.exe
   
   # OBS
   - PROCESS-NAME,obs64.exe
@@ -148,4 +147,5 @@ payload:
   - PROCESS-NAME,vgc.exe
   - PROCESS-NAME,vgm.exe
   - PROCESS-NAME-REGEX,(?i).*vanguard.*
+
 
