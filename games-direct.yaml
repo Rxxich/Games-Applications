@@ -29,6 +29,9 @@ payload:
 
   # Counter-Strike 2
   - PROCESS-NAME,cs2.exe
+  
+  # Steam
+  - PROCESS-NAME-REGEX,(?i).*steam.*
 
   # Party Animals
   - PROCESS-NAME,PartyAnimals.exe
@@ -148,4 +151,5 @@ payload:
   # FaceIT AC
   - PROCESS-NAME,faceitservice.exe
   - PROCESS-NAME,faceitclient.exe  
+
 
