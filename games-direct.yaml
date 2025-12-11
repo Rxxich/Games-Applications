@@ -151,5 +151,14 @@ payload:
   # FaceIT AC
   - PROCESS-NAME,faceitservice.exe
   - PROCESS-NAME,faceitclient.exe  
+  
+  # ВПН и всякие Anydesk, Rustdesk, Teamviewer в директ
+  - PROCESS-NAME-REGEX,(?i).*tailscale.*
+  - PROCESS-NAME-REGEX,(?i).*wireguard.*
+  - PROCESS-NAME-REGEX,(?i).*netbird.*
+  - PROCESS-NAME-REGEX,(?i).*anydesk.*
+  - PROCESS-NAME-REGEX,(?i).*rustdesk.*
+  - PROCESS-NAME-REGEX,(?i).*teamviewer.*
+  - RULE-SET,remote-control
 
 
