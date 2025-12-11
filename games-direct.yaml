@@ -159,6 +159,6 @@ payload:
   - PROCESS-NAME-REGEX,(?i).*anydesk.*
   - PROCESS-NAME-REGEX,(?i).*rustdesk.*
   - PROCESS-NAME-REGEX,(?i).*teamviewer.*
-  - RULE-SET,remote-control
+
 
 
