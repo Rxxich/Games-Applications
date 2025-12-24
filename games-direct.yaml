@@ -43,8 +43,6 @@ payload:
   - PROCESS-NAME,ExecPubg.exe # Launcher
   - PROCESS-NAME-REGEX,TslGame.* # Game
 
-  # REPO
-  - PROCESS-NAME,REPO.exe
 
   # Minecraft
   - PROCESS-NAME,javaw.exe # Minecraft (Java Edition)
@@ -159,3 +157,4 @@ payload:
   - PROCESS-NAME-REGEX,(?i).*anydesk.*
   - PROCESS-NAME-REGEX,(?i).*rustdesk.*
   - PROCESS-NAME-REGEX,(?i).*teamviewer.*
+
